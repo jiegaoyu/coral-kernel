@@ -1,0 +1,5 @@
+config TIMED_TASK
+    tristate "Timed Task Kernel Module"
+    default n
+    help
+      This is a simple kernel module for testing timers with periodic or one-shot modes.
