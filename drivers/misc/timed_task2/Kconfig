@@ -1,0 +1,5 @@
+config TIMED_TASK2
+    tristate "Timed Task2 Kernel Module"
+    default n
+    help
+      This is a simple kernel module for testing timers with periodic or one-shot modes.
